@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: &quot;3366cc&quot;;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SingUpController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="91.0" prefHeight="309.0" prefWidth="700.0" style="-fx-background-color: &quot;ffffff&quot;;">
+            <children>
+                <Button fx:id="singUpButton" layoutX="227.0" layoutY="234.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="246.0" text="Зарегистрироваться" textAlignment="CENTER" AnchorPane.leftAnchor="227.0" AnchorPane.rightAnchor="227.0">
+                    <font>
+                        <Font name="Times New Roman" size="25.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="singUpName" layoutX="14.0" layoutY="37.0" prefHeight="35.0" prefWidth="319.0" promptText="Имя" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="367.0">
+               <font>
+                  <Font size="20.0" />
+               </font></TextField>
+                <PasswordField fx:id="password_field" layoutX="367.0" layoutY="100.0" prefHeight="35.0" prefWidth="260.0" promptText="Пароль" AnchorPane.leftAnchor="367.0" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font size="20.0" />
+               </font></PasswordField>
+            <TextField fx:id="singUpSurnname" layoutX="14.0" layoutY="100.0" prefHeight="35.0" prefWidth="319.0" promptText="Фамилия" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="100.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="singUpCountry" layoutX="367.0" layoutY="162.0" prefHeight="44.0" prefWidth="319.0" promptText="Страна">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <CheckBox fx:id="singUpCheckBoxMan" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" text="Мужчина">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="singUpCheckBoxWoman" layoutX="206.0" layoutY="169.0" mnemonicParsing="false" text="Женщина">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="login_field" layoutX="367.0" layoutY="37.0" prefHeight="35.0" prefWidth="319.0" promptText="Логин" AnchorPane.topAnchor="37.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="191.0" layoutY="14.0" text="Регистрация" textFill="WHITE">
+            <font>
+                <Font name="Times New Roman" size="60.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
